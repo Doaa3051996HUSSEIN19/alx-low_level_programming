@@ -1,11 +1,17 @@
 #include <stdio.h>
 
-int main(void) {
-    printf("Size of a char: %zu byte%s\n", sizeof(char), sizeof(char) > 1 ? "s" : "");
-    printf("Size of an int: %zu byte%s\n", sizeof(int), sizeof(int) > 1 ? "s" : "");
-    printf("Size of a long int: %zu byte%s\n", sizeof(long), sizeof(long) > 1 ? "s" : "");
-    printf("Size of a long long int: %zu byte%s\n", sizeof(long long), sizeof(long long) > 1 ? "s" : "");
-    printf("Size of a float: %zu byte%s\n", sizeof(float), sizeof(float) > 1 ? "s" : "");
+/**
+ * main - Entry point of the size program
+ *
+ * Return: Always 0 (success)
+ */
+int main(void)
+{
+    printf("Size of an int: %ld\n", sizeof(int));
+    printf("Size of a float: %ld\n", sizeof(float));
+    printf("Size of a char: %ld\n", sizeof(char));
+    printf("Size of a long long int: %ld\n", sizeof(long long int));
+    printf("Size of a long int: %ld\n", sizeof(long int));
 
     return 0;
 }
