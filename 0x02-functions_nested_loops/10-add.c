@@ -3,8 +3,8 @@
 * add - a function that adds two integers
 * and returns the result.
 *
-* @a: number one.
-* @b: number two.
+* @n2: number one.
+* @n1: number two.
 *
 * Return: Add of number one and number two.
 */
