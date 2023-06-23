@@ -1,9 +1,11 @@
 #include "main.h"
 
-/**
-* main - tests function that prints if integer is positive or negative
-* Return: 0
-*/
+/*
+* main - tests function that prints if integer is positive or negative 
+* Description:positive_or_negative function
+*determine greater, iqual or less than zero.
+* @param i The number to be checked.
+**/
 
 void positive_or_negative(int i)
 
@@ -14,11 +16,10 @@ void positive_or_negative(int i)
 	}
 	else if (i < 0)
 	{
-		printf("%d is %s\n" , i, "negative");
+		printf("%d is %s\n", i, "negative");
 	}
 	else
 	{
-		printf("%d is %s\n" , i, "zero");
+		printf("%d is %s\n", i, "zero");
 	}
-	return;
 }
